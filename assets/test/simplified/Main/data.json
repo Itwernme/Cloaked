@@ -1,0 +1,29 @@
+{
+	"identifier": "Main",
+	"uniqueIdentifer": "114fb0b2-7820-11ed-95d3-3b2465ea4f61",
+	"x": 0,
+	"y": 0,
+	"width": 256,
+	"height": 256,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Solid.png"
+	],
+	"entities": {
+		"RectRegion": [
+			{
+				"id": "RectRegion",
+				"iid": "0c799fe0-7820-11ed-9299-a75f0a45a8c2",
+				"layer": "Entities",
+				"x": 120,
+				"y": 120,
+				"width": 16,
+				"height": 16,
+				"color": 12470831,
+				"customFields" : {}
+			}
+		]
+	}
+}

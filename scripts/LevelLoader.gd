@@ -6,7 +6,8 @@ func _ready():
 	pass
 
 func _parse_ldtk_level_file(var path : String):
-	_read_json_file(path)
+	var worldData = _read_json_file(path)
+	worldData["levels"]
 
 func _read_json_file(var path : String) -> Dictionary:
 	var file = File.new()
