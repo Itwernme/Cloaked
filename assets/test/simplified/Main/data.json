@@ -9,7 +9,8 @@
 	"neighbourLevels": [],
 	"customFields" : {},
 	"layers": [
-		"Solid.png"
+		"Solid.png",
+		"Tiles.png"
 	],
 	"entities": {
 		"RectRegion": [

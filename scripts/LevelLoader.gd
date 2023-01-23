@@ -2,11 +2,10 @@ extends Node2D
 
 
 func _ready():
-	print(_read_json_file("res://assets/test.ldtk")["levels"])
 	pass
 
-func _parse_ldtk_level_file(var path : String):
-	var worldData = _read_json_file(path)
+func _read_level_(var folderPath : String):
+	var worldData = _read_json_file(folderPath + "/data.json")
 	worldData["levels"]
 
 func _read_json_file(var path : String) -> Dictionary:
